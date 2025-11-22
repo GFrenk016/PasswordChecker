@@ -8,11 +8,11 @@ def passChecker():
         if len(password) < 8:
             print("Password debole: troppo corta.")
         else:
-            print("Password valida.")
+            print("Password forte. Sei al sicuro!")
 
         print("\nScegli:")
-        print("1) Riprova con un'altra password")
-        print("2) Torna al menu principale")
+        print("1. Riprova con un'altra password")
+        print("2. Torna al menu principale")
 
         choice = input("Scegli: ")
 
